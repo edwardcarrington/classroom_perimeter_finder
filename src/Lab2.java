@@ -1,5 +1,6 @@
-
 import java.util.Scanner;
+
+// I'm going outside to eat lunch today
 
 public class Lab2 {
 
@@ -17,10 +18,10 @@ public class Lab2 {
 			System.out.println("Now it's time to enter the width of that same room...");
 			double width = input.nextDouble();
 
-			// Perimeter of area = length X width
+			// area = length X width
 			double area = length * width;
 
-			// Perimeter of rectangle = 2 X (length X width)
+			// rectangle = 2 X (length X width)
 			double perimeter = 2 * (length + width);
 
 			System.out.println(" ");
